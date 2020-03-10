@@ -63,3 +63,39 @@ li {
     list-style-type: none;
     margin: 0.3rem;
 }
+
+.h2img::before {
+    content: url(dev/Images/kljuchik.jpg);
+}
+
+.pimg1::before,
+.pimg2::before {
+    content: url(dev/Images/mark.jpg);
+}
+
+.pimg2::after {
+    content: url(dev/Images/dotcom.gif);
+}
+
+.limg1::after {
+    content: url(dev/Images/new.png);
+}
+
+.limg2::before {
+    content: url(dev/Images/sun3.png);
+}
+
+.grad {
+    border: 2px solid peachpuff;
+    background-color: orange;
+    width: 146px;
+    border-radius: 8px;
+}
+
+.butt {
+    border: 2px solid slategray;
+    background-color: lightgreen;
+    width: 98px;
+    border-radius: 5px;
+    font-size: 0.85rem;
+}
