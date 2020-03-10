@@ -1,5 +1,5 @@
 body {
-    font-family: arial, verdana, sans-serif;
+    font-family: Arial, Verdana;
 }
 
 .wrapper {
@@ -44,7 +44,7 @@ main {
     h2,
     h3 {
         text-align: center;
-        color: crimson;
+        color: #ff0000;
     }
 }
 
@@ -98,4 +98,24 @@ li {
     width: 98px;
     border-radius: 5px;
     font-size: 0.85rem;
+}
+
+.hplink {
+    font-weight: bold;
+    color: #3366cc;
+
+    &:hover {
+        color: red;
+        cursor: pointer;
+    }
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    font-weight: normal;
 }
